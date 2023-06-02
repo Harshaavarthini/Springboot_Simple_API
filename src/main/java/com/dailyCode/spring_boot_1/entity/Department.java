@@ -19,6 +19,7 @@ import org.hibernate.validator.constraints.Length;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+//lombok to reduce boilerplate code
 public class Department {
 
     @Id
